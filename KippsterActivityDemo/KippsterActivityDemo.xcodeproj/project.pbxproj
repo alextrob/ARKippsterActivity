@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD395B8170926CE0024A260 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD395B7170926CE0024A260 /* UIKit.framework */; };
+		FAD395BA170926CE0024A260 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD395B9170926CE0024A260 /* Foundation.framework */; };
+		FAD395BC170926CE0024A260 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD395BB170926CE0024A260 /* CoreGraphics.framework */; };
+		FAD395C2170926CE0024A260 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAD395C0170926CE0024A260 /* InfoPlist.strings */; };
+		FAD395C4170926CE0024A260 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD395C3170926CE0024A260 /* main.m */; };
+		FAD395C8170926CE0024A260 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD395C7170926CE0024A260 /* AppDelegate.m */; };
+		FAD395CA170926CE0024A260 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD395C9170926CE0024A260 /* Default.png */; };
+		FAD395CC170926CE0024A260 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD395CB170926CE0024A260 /* Default@2x.png */; };
+		FAD395CE170926CE0024A260 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD395CD170926CE0024A260 /* Default-568h@2x.png */; };
+		FAD395D1170926CE0024A260 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD395D0170926CE0024A260 /* ViewController.m */; };
+		FAD395D4170926CE0024A260 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD395D2170926CE0024A260 /* ViewController_iPhone.xib */; };
+		FAD395D7170926CE0024A260 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD395D5170926CE0024A260 /* ViewController_iPad.xib */; };
+		FAD395E4170927300024A260 /* ARKippsterActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD395DF170927300024A260 /* ARKippsterActivity.m */; };
+		FAD395E5170927300024A260 /* kippster-activity.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD395E0170927300024A260 /* kippster-activity.png */; };
+		FAD395E6170927300024A260 /* kippster-activity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD395E1170927300024A260 /* kippster-activity@2x.png */; };
+		FAD395E7170927300024A260 /* kippster-activity@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD395E2170927300024A260 /* kippster-activity@2x~ipad.png */; };
+		FAD395E8170927300024A260 /* kippster-activity~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD395E3170927300024A260 /* kippster-activity~ipad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAD395B4170926CE0024A260 /* KippsterActivityDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KippsterActivityDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD395B7170926CE0024A260 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAD395B9170926CE0024A260 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAD395BB170926CE0024A260 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAD395BF170926CE0024A260 /* KippsterActivityDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KippsterActivityDemo-Info.plist"; sourceTree = "<group>"; };
+		FAD395C1170926CE0024A260 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAD395C3170926CE0024A260 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAD395C5170926CE0024A260 /* KippsterActivityDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KippsterActivityDemo-Prefix.pch"; sourceTree = "<group>"; };
+		FAD395C6170926CE0024A260 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAD395C7170926CE0024A260 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAD395C9170926CE0024A260 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FAD395CB170926CE0024A260 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FAD395CD170926CE0024A260 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FAD395CF170926CE0024A260 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAD395D0170926CE0024A260 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAD395D3170926CE0024A260 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		FAD395D6170926CE0024A260 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		FAD395DE170927300024A260 /* ARKippsterActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARKippsterActivity.h; sourceTree = "<group>"; };
+		FAD395DF170927300024A260 /* ARKippsterActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARKippsterActivity.m; sourceTree = "<group>"; };
+		FAD395E0170927300024A260 /* kippster-activity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kippster-activity.png"; sourceTree = "<group>"; };
+		FAD395E1170927300024A260 /* kippster-activity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kippster-activity@2x.png"; sourceTree = "<group>"; };
+		FAD395E2170927300024A260 /* kippster-activity@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kippster-activity@2x~ipad.png"; sourceTree = "<group>"; };
+		FAD395E3170927300024A260 /* kippster-activity~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kippster-activity~ipad.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD395B1170926CE0024A260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD395B8170926CE0024A260 /* UIKit.framework in Frameworks */,
+				FAD395BA170926CE0024A260 /* Foundation.framework in Frameworks */,
+				FAD395BC170926CE0024A260 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD395AB170926CE0024A260 = {
+			isa = PBXGroup;
+			children = (
+				FAD395DD170927300024A260 /* ARKippsterActivity */,
+				FAD395BD170926CE0024A260 /* KippsterActivityDemo */,
+				FAD395B6170926CE0024A260 /* Frameworks */,
+				FAD395B5170926CE0024A260 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD395B5170926CE0024A260 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD395B4170926CE0024A260 /* KippsterActivityDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD395B6170926CE0024A260 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAD395B7170926CE0024A260 /* UIKit.framework */,
+				FAD395B9170926CE0024A260 /* Foundation.framework */,
+				FAD395BB170926CE0024A260 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAD395BD170926CE0024A260 /* KippsterActivityDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FAD395C6170926CE0024A260 /* AppDelegate.h */,
+				FAD395C7170926CE0024A260 /* AppDelegate.m */,
+				FAD395CF170926CE0024A260 /* ViewController.h */,
+				FAD395D0170926CE0024A260 /* ViewController.m */,
+				FAD395D2170926CE0024A260 /* ViewController_iPhone.xib */,
+				FAD395D5170926CE0024A260 /* ViewController_iPad.xib */,
+				FAD395BE170926CE0024A260 /* Supporting Files */,
+			);
+			path = KippsterActivityDemo;
+			sourceTree = "<group>";
+		};
+		FAD395BE170926CE0024A260 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD395BF170926CE0024A260 /* KippsterActivityDemo-Info.plist */,
+				FAD395C0170926CE0024A260 /* InfoPlist.strings */,
+				FAD395C3170926CE0024A260 /* main.m */,
+				FAD395C5170926CE0024A260 /* KippsterActivityDemo-Prefix.pch */,
+				FAD395C9170926CE0024A260 /* Default.png */,
+				FAD395CB170926CE0024A260 /* Default@2x.png */,
+				FAD395CD170926CE0024A260 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAD395DD170927300024A260 /* ARKippsterActivity */ = {
+			isa = PBXGroup;
+			children = (
+				FAD395DE170927300024A260 /* ARKippsterActivity.h */,
+				FAD395DF170927300024A260 /* ARKippsterActivity.m */,
+				FAD395E0170927300024A260 /* kippster-activity.png */,
+				FAD395E1170927300024A260 /* kippster-activity@2x.png */,
+				FAD395E2170927300024A260 /* kippster-activity@2x~ipad.png */,
+				FAD395E3170927300024A260 /* kippster-activity~ipad.png */,
+			);
+			name = ARKippsterActivity;
+			path = ../ARKippsterActivity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD395B3170926CE0024A260 /* KippsterActivityDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD395DA170926CE0024A260 /* Build configuration list for PBXNativeTarget "KippsterActivityDemo" */;
+			buildPhases = (
+				FAD395B0170926CE0024A260 /* Sources */,
+				FAD395B1170926CE0024A260 /* Frameworks */,
+				FAD395B2170926CE0024A260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KippsterActivityDemo;
+			productName = KippsterActivityDemo;
+			productReference = FAD395B4170926CE0024A260 /* KippsterActivityDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD395AC170926CE0024A260 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Alex Robinson";
+			};
+			buildConfigurationList = FAD395AF170926CE0024A260 /* Build configuration list for PBXProject "KippsterActivityDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAD395AB170926CE0024A260;
+			productRefGroup = FAD395B5170926CE0024A260 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD395B3170926CE0024A260 /* KippsterActivityDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD395B2170926CE0024A260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD395C2170926CE0024A260 /* InfoPlist.strings in Resources */,
+				FAD395CA170926CE0024A260 /* Default.png in Resources */,
+				FAD395CC170926CE0024A260 /* Default@2x.png in Resources */,
+				FAD395CE170926CE0024A260 /* Default-568h@2x.png in Resources */,
+				FAD395D4170926CE0024A260 /* ViewController_iPhone.xib in Resources */,
+				FAD395D7170926CE0024A260 /* ViewController_iPad.xib in Resources */,
+				FAD395E5170927300024A260 /* kippster-activity.png in Resources */,
+				FAD395E6170927300024A260 /* kippster-activity@2x.png in Resources */,
+				FAD395E7170927300024A260 /* kippster-activity@2x~ipad.png in Resources */,
+				FAD395E8170927300024A260 /* kippster-activity~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD395B0170926CE0024A260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD395C4170926CE0024A260 /* main.m in Sources */,
+				FAD395C8170926CE0024A260 /* AppDelegate.m in Sources */,
+				FAD395D1170926CE0024A260 /* ViewController.m in Sources */,
+				FAD395E4170927300024A260 /* ARKippsterActivity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAD395C0170926CE0024A260 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD395C1170926CE0024A260 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAD395D2170926CE0024A260 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD395D3170926CE0024A260 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		FAD395D5170926CE0024A260 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD395D6170926CE0024A260 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD395D8170926CE0024A260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAD395D9170926CE0024A260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD395DB170926CE0024A260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KippsterActivityDemo/KippsterActivityDemo-Prefix.pch";
+				INFOPLIST_FILE = "KippsterActivityDemo/KippsterActivityDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAD395DC170926CE0024A260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KippsterActivityDemo/KippsterActivityDemo-Prefix.pch";
+				INFOPLIST_FILE = "KippsterActivityDemo/KippsterActivityDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD395AF170926CE0024A260 /* Build configuration list for PBXProject "KippsterActivityDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD395D8170926CE0024A260 /* Debug */,
+				FAD395D9170926CE0024A260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD395DA170926CE0024A260 /* Build configuration list for PBXNativeTarget "KippsterActivityDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD395DB170926CE0024A260 /* Debug */,
+				FAD395DC170926CE0024A260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAD395AC170926CE0024A260 /* Project object */;
+}
