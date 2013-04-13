@@ -14,8 +14,8 @@
 
 @implementation ARKippsterActivity {
     // Set via prepareWithActivityItems:
-	NSURL *_activityURL; // The URL that will be saved.
-    NSString *_activityTitle; // The Title that should be set.
+	NSURL *_linkURL; // The URL that will be saved.
+    NSString *_linkTitle; // The Title that should be set.
 }
 
 @synthesize callbackURL = _callbackURL;
@@ -50,7 +50,7 @@
 }
 
 - (NSString *)activityTitle {
-    return @"Kippster";
+    return _activityTitle;
 }
 
 - (NSString *)activityType {
@@ -74,18 +74,18 @@
 - (void)prepareWithActivityItems:(NSArray *)activityItems {
     for (id item in activityItems) {
         if ([item isKindOfClass:[NSURL class]]) {
-            _activityURL = item;
+            _linkURL = item;
         }
         else if ([item isKindOfClass:[NSString class]]) {
-            _activityTitle = item;
+            _linkTitle = item;
         }
     }
 }
 
 - (void)performActivity {
 	NSString *urlString = [NSString stringWithFormat:@"kippster://x-callback-url/add?url=%@&title=%@&x-success=%@&x-error=%@&x-cancel=%@&x-source=%@",
-                           [_activityURL.absoluteString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding],
-                           [_activityTitle stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding],
+                           [_linkURL.absoluteString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding],
+                           [_linkTitle stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding],
                            [_callbackURL.absoluteString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding],
                            [_callbackURL.absoluteString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding],
                            [_callbackURL.absoluteString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding],
